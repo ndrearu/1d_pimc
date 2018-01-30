@@ -36,8 +36,9 @@ MCeach       10
 MCstart      0
 ```
 where the example refers to a simulation of four non-interacting impenetrable particles of unit mass subjected to an harmonic potential, placed in a very big box (with respect to the relevant physical scale of the system given by the harmonic trap) so that volume effects should be negligible. Here the program will perform 5000 Monte-Carlo updates starting from a cold configuration and measuring and saving observables and configurations each 10 steps. A fancy representation of the Monte-Carlo history of the paths is shown here below
-![](./doc/path_animation.gif)
-
+<p align='center'>
+<img src='./doc/path_animation.gif' width='540px'>
+</p>
 where each trajectory represents a particle. Starting from a cold configuration (straight lines), the particles tend to be confined near the origin because of the harmonic trap. However, they cannot condensate since each particle is limited by the neighbors, so that the corresponding spatial density distribution would show four peaks (it is a one-dinmensional non-interacting fermion gas in an harmonic trap).
 
 At the end of the run, system configurations together with the value of the action and the acceptance of the algorithm are save into output files that can be use for a subsequent analysis of the data. A more detailed description of the code, the algorithm and the simulation parameters and of can be found in the wiki.
