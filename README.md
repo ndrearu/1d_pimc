@@ -57,5 +57,3 @@ Andrea Rucci, Department of Physics of University of Pisa and INFN Pisa
 - Modify setup of openmp number of threads
 - Improve or change potential wrappers adding check on number of parameters
 - Modify update routine allowing crossing between paths if needed
-
-##### Last update 01/02/2018
