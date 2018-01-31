@@ -57,3 +57,4 @@ Andrea Rucci, Department of Physics of University of Pisa and INFN Pisa
 - Modify setup of openmp number of threads
 - Improve or change potential wrappers adding check on number of parameters
 - Modify update routine allowing crossing between paths if needed
+- Allow to choose the seeds of the random number generators in order to make the simulations reproducible
