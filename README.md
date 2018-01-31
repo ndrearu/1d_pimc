@@ -29,7 +29,7 @@ boxlength    100
 V1form       harmonic
 V1pars       2 3. 0.
 V2form       nointeraction
-V2pars 1     0.0
+V2pars       1 0.0
 
 MCsteps      5000
 MCeach       10
